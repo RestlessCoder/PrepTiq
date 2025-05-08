@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+.auth-layout {
+  @apply flex items-center justify-center mx-auto max-w-7xl min-h-screen max-sm:px-6 py-10;
+}
+
+.form-border {
+  @apply flex flex-col p-0.5 rounded-2xl w-fit px-10 py-15
+}
+
+
+/* Utilities CSS */
+@utility dark-gradient {
+  @apply bg-gradient-to-b from-[#1A1C20] to-[#08090D];
+}
+
+@utility border-gradient {
+  @apply bg-gradient-to-b from-[#4B4D4F] to-[#4B4D4F33];
+}
